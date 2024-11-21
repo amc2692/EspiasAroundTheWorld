@@ -152,6 +152,7 @@ public class Controller {
 	}
 
 	private void limpiarMapa() {
+		grafo = new Grafo();
 		interfazUsuario.getMapa().removeAllMapMarkers();
 		interfazUsuario.getMapa().removeAllMapPolygons();
 	}
